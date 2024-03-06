@@ -1,0 +1,19 @@
+.todolist-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: right;
+  margin-bottom: 10px;
+  width: 300px;
+
+  > .todo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    > .todo-buttons {
+      display: flex;
+      gap: 10px;
+    }
+  }
+}
